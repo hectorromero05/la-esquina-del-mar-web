@@ -1,0 +1,2 @@
+import { business } from "../data";
+export default function CTA() { return <section className="cta"><h2>¿Antojo de mariscos en la Americana?</h2><p>Escríbenos por WhatsApp, revisa el menú y ven a La Esquina del Mar.</p><div className="button-row center"><a className="btn btn-coral" href={business.whatsapp} target="_blank" rel="noreferrer">Pedir por WhatsApp</a><a className="btn btn-light" href={business.maps} target="_blank" rel="noreferrer">Cómo llegar</a><a className="btn btn-primary" href="#menu">Ver menú</a></div></section>; }
