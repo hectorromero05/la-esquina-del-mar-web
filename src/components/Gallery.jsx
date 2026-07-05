@@ -1,0 +1,3 @@
+export default function Gallery() {
+  return <section className="section gallery" id="galeria"><p className="eyebrow">Ambiente y galería</p><h2>Una terraza relajada para comer mariscos sin salir de la ciudad.</h2><div className="gallery-grid"><img src="/galeria1.jpg" alt="Detalle de La Esquina del Mar"/><img src="/galeria2.jpg" alt="Terraza de La Esquina del Mar"/><img src="/galeria3.jpg" alt="Ambiente casual de la marisquería"/><div className="gallery-placeholder"><span>🦐</span><p>Conchas, olas, pizarrón y promos de esquina.</p></div><div className="gallery-placeholder coral"><span>〰</span><p>Menú blanco con títulos azules y acentos coral.</p></div></div></section>;
+}
